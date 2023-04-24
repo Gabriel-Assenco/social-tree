@@ -1,0 +1,78 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .perfil{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .perfil img{
+    margin-top: 20px;
+    width: 17vw;
+    height: 34vh;
+    border-radius: 50%;
+    
+  }
+
+  .insta{
+    display: flex;
+    justify-content: center;
+  }
+
+  .insta a{
+    text-decoration: none;
+    color: #BB99DD;
+  }
+
+  .insta span{
+    margin-top: 10px;
+  }
+  
+  .tree{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .tree a{
+    text-decoration: none;
+    color: #BB99DD;
+  }
+
+  .tree li{
+    margin: 5px;
+    padding: 15px 120px;
+    list-style: none;
+    border: 2px solid #BB99DD;
+    border-radius: 2px;
+  }
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.icons img{
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px){
+    .perfil img{
+    margin-top: 70px;
+    width: 50vw;
+    height: 23vh;
+    border-radius: 50%;
+    }
+}
